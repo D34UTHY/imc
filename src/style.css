@@ -7,3 +7,16 @@ body {
     background-color: #f8f9fa;
     margin: 0;
 }
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
