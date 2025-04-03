@@ -1,0 +1,26 @@
+{
+    "name": "calculadora_imc",
+    "version": "1.0.0",
+    "description": "Calculadora de Indice de Massa Corpórea",
+    "keywords": [
+      "imc"
+    ],
+    "homepage": "https://github.com/d34uthy/imc#readme",
+    "bugs": {
+      "url": "https://github.com/d34uthy/imc/issues"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/d34uthy/imc.git"
+    },
+    "license": "MIT",
+    "author": "Matheus Sant'Ana",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+      "start": "live-server src --host=0.0.0.0 --port=80"  
+    },
+    "dependencies": {
+      "live-server": "^1.2.2"
+    }
+  }
