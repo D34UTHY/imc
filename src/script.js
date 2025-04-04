@@ -22,7 +22,8 @@ function calcularIMC() {
         }
         
 
-        resultado.innerHTML = `<p>Seu IMC é: ${imc.toFixed(1)}</p>
+        resultado.innerHTML = `<p style='font-weight:bolder;'>Resultado:</p>
+                               <p>Seu IMC é: ${imc.toFixed(1)}</p>
                                <p>Classificação: ${indice}</p>`
     } else {
         resultado.innerHTML = "<p style='color:red;'>Insira valores válidos!</p>"
